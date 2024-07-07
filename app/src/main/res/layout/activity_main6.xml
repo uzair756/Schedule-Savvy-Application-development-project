@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bluebg"
+    android:padding="30dp"
+    >
+
+    <ImageView
+        android:id="@+id/icon_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝕊𝕥𝕦𝕕𝕖𝕟𝕥 𝕊𝕚𝕘𝕟𝕚𝕟"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="15sp"/>
+
+
+    <EditText
+        android:id="@+id/username_student_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="𝔼𝕟𝕥𝕖𝕣 𝕦𝕤𝕖𝕣𝕟𝕒𝕞𝕖"
+        android:layout_margin="5sp"/>
+
+    <EditText
+        android:id="@+id/regno_student_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="𝔼𝕟𝕥𝕖𝕣 ℝ𝕖𝕘𝕚𝕤𝕥𝕣𝕒𝕥𝕚𝕠𝕟 𝕟𝕦𝕞𝕓𝕖𝕣"
+        android:layout_margin="5sp"/>
+
+    <EditText
+        android:id="@+id/password_student_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="𝔼𝕟𝕥𝕖𝕣 ℙ𝕒𝕤𝕤𝕨𝕠𝕣𝕕"
+        android:inputType="textPassword"
+        android:layout_margin="5sp"/>
+
+
+
+    <TextView
+        android:id="@+id/student_signin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="𝕊𝕚𝕘𝕟𝕚𝕟"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_border"
+        />
+
+    <TextView
+        android:id="@+id/account_student_signin_exist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝔸𝕝𝕣𝕖𝕒𝕕𝕪 𝕙𝕒𝕧𝕖 𝕒𝕟 𝕒𝕔𝕔𝕠𝕦𝕟𝕥?𝕃𝕠𝕘𝕚𝕟"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

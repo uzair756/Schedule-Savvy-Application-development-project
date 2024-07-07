@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bluebg"
+    tools:context=".MainActivity10">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a8"
+        android:gravity="left"
+        android:padding="16dp"
+        android:text="𝔸𝕝𝕒𝕣𝕞"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="45dp"/>
+
+
+    <!-- Vertical ScrollView to hold the alarms -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/alarm_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Dynamically generated alarm items will be added here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Button to add new alarm -->
+    <Button
+        android:id="@+id/add_alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Alarm"
+        android:layout_margin="16dp"/>
+</LinearLayout>

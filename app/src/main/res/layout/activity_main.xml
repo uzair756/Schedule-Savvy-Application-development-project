@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/icon_image"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/iconimageup"-->
+<!--        android:layout_gravity="center"/>-->
+
+    <TextView
+        android:id="@+id/schedule_savvy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝕊𝕔𝕙𝕖𝕕𝕦𝕝𝕖 𝕊𝕒𝕧𝕧𝕪"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+
+</LinearLayout>
+

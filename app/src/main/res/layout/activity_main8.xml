@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E0FFFF"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp">
+
+        <!-- <ImageView-->
+        <!-- android:id="@+id/bell_icon_imageview"-->
+        <!-- android:layout_width="30dp"-->
+        <!-- android:layout_height="30dp"-->
+        <!-- android:src="@drawable/bell"-->
+        <!-- android:layout_marginTop="7dp"-->
+        <!-- android:layout_marginLeft="7dp"/> -->
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a8"
+            android:text="𝕊𝕔𝕙𝕖𝕕𝕦𝕝𝕖 𝕊𝕒𝕧𝕧𝕪"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+
+        <!-- <ImageView-->
+        <!-- android:id="@+id/chat_icon_imageview"-->
+        <!-- android:layout_width="50dp"-->
+        <!-- android:layout_height="50dp"-->
+        <!-- android:src="@drawable/chat"-->
+        <!-- android:layout_marginTop="7dp"-->
+        <!-- android:layout_marginLeft="70dp"-->
+        <!-- /> -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="530dp"
+        android:background="@drawable/a7"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/alarm_section"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/a8"
+            android:layout_margin="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="𝔸𝕝𝕒𝕣𝕞"
+                android:textStyle="bold"
+                android:layout_margin="10dp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bell"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/messages_section"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/a8"
+            android:layout_margin="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="𝕄𝕖𝕤𝕤𝕒𝕘𝕖𝕤"
+                android:textStyle="bold"
+                android:layout_margin="10dp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/chat"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gallery_section"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/a8"
+            android:layout_margin="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="𝔾𝕒𝕝𝕝𝕖𝕣𝕪"
+                android:textStyle="bold"
+                android:layout_margin="10dp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/imagegallery"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615468654208",
+    "project_id": "alarmls",
+    "storage_bucket": "alarmls.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615468654208:android:963de888e84ac39e20d065",
+        "android_client_info": {
+          "package_name": "com.example.mad_cv_sp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWVP3Ob6oiKEV-8hp3Oz1CkBAkmL9ckJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
